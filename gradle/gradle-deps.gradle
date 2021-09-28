@@ -1,0 +1,29 @@
+ext {
+    // Build Tools
+    builds = [
+            buildTools   : '29.0.3',
+            minSdk       : 21,
+            compileSdk   : 30,
+            versionCode  : 1,
+            versionName  : "1.0"
+    ]
+
+    // Plugins
+    gradlePlugins = [
+            agp            : '7.0.2'
+    ]
+
+    // Library Versions
+    versions = [
+            kotlin                      : '1.5.21',
+            kotlinXCoroutinesCore       : '1.3.9',
+
+            // android dependencies
+            appCompat                   : '1.3.1',
+            materialDesign              : '1.4.0',
+            compose                     : '1.0.2',
+
+            // test dependencies
+            junit                       : '4.13.2'
+    ]
+}

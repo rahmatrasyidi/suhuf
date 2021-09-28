@@ -1,0 +1,5 @@
+jdk:
+ - openjdk11
+install:
+ - ./gradlew :suhuf:build :suhuf:publishToMavenLocal -x :suhuf:test
+ - find . -name "*.aar"
