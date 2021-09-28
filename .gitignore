@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+*.iml
+.gradle
+/local.properties
+/.idea
