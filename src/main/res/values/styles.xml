@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+		<item name="android:background">@drawable/bg_white_corner_top_16dp</item>
+	</style>
+
+	<style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+		<item name="bottomSheetStyle">@style/BottomSheet</item>
+		<item name="android:windowIsFloating">false</item>
+		<item name="android:windowSoftInputMode">adjustResize</item>
+	</style>
+
+	<style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+</resources>
