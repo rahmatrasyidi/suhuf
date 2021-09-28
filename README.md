@@ -51,7 +51,7 @@ For the `PeekHeight` it is only allowed to set `HEIGHT_FULL`, `HEIGHT_65` & `HEI
 You can override Suhuf theme like this:
 
 ```kotlin
-    override fun getTheme(): Int = R.style.BottomSheetDialogTheme
+override fun getTheme(): Int = R.style.BottomSheetDialogTheme
 ```
 
 You can show and put arguments like this:
