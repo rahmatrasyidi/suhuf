@@ -24,6 +24,8 @@ ext {
             compose                     : '1.0.2',
 
             // test dependencies
-            junit                       : '4.13.2'
+            junit                       : '4.13.2',
+            junitExt                    : '1.1.3',
+            espressoCore                : '3.4.0'
     ]
 }

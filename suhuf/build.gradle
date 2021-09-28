@@ -39,8 +39,8 @@ dependencies {
     implementation "com.google.android.material:material:$versions.materialDesign"
 
     testImplementation "junit:junit:$versions.junit"
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation "androidx.test.ext:junit:$versions.junitExt"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.espressoCore"
 }
 
 project.afterEvaluate {
