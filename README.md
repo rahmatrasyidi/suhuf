@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/rahmatrasyidi/suhuf.svg)](https://jitpack.io/#rahmatrasyidi/suhuf)
+
 Suhuf
 ======
 
@@ -20,7 +22,7 @@ And add this to your application gradle `build.gradle`
 
 ```gradle
 dependencies {
-    implementation "com.github.rahmatrasyidi:suhuf:$routerVersion"
+    implementation "com.github.rahmatrasyidi.suhuf:ui:$latestVersion"
 }
 ```
 
@@ -28,7 +30,7 @@ If you want to get Jetpack Compose support add this to your application gradle `
 
 ```gradle
 dependencies {
-    implementation "com.github.rahmatrasyidi:suhuf-compose:$routerVersion"
+    implementation "com.github.rahmatrasyidi:suhuf:$latestVersion"
 }
 ```
 
