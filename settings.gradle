@@ -9,6 +9,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Suhuf"
-include ':app', ':suhuf', ':suhuf-compose'
+include ':app', ':ui', ':compose'
 
 project(":app").projectDir = new File(rootDir, "samples/app")

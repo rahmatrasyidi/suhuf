@@ -43,7 +43,7 @@ android {
 }
 
 dependencies {
-    implementation project(':suhuf-compose')
+    implementation project(':compose')
 
     implementation "androidx.appcompat:appcompat:$versions.appCompat"
     implementation "com.google.android.material:material:$versions.materialDesign"
