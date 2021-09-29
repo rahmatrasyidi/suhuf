@@ -1,7 +1,7 @@
 jdk:
  - openjdk11
 install:
- - ./gradlew :suhuf:build :suhuf:publishToMavenLocal -x :suhuf:test
+ - ./gradlew :ui:build :ui:publishToMavenLocal -x :ui:test
  - find . -name "*.aar"
- - ./gradlew :suhuf-compose:build :suhuf-compose:publishToMavenLocal -x :suhuf-compose:test
+ - ./gradlew :compose:build :compose:publishToMavenLocal -x :compose:test
  - find . -name "*.aar"
