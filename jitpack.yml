@@ -3,3 +3,5 @@ jdk:
 install:
  - ./gradlew :suhuf:build :suhuf:publishToMavenLocal -x :suhuf:test
  - find . -name "*.aar"
+ - ./gradlew :suhuf-compose:build :suhuf-compose:publishToMavenLocal -x :suhuf-compose:test
+ - find . -name "*.aar"
