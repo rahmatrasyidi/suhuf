@@ -6,7 +6,7 @@ import com.rahmatrasyidi.suhuf.Suhuf
 
 abstract class SuhufCompose : Suhuf(R.layout.suhuf_compose) {
 
-    fun setContent(content: @Composable () -> Unit) {
+    inline fun setContent(crossinline content: @Composable () -> Unit) {
         val composeView = requireView().findViewById<ComposeView>(R.id.cvContainer)
         composeView.setContent { content.invoke() }
     }
